@@ -1,5 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  color: #41474D;
 }
 
 html {
@@ -22,7 +23,7 @@ h2 {
   font-size: 15px;
   font-weight: 600;
   padding: 0.75rem 1.25rem;
-  background-color: #4eaeff;
+  background-color: #688B58;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -56,9 +57,9 @@ a:hover {
 }
 
 .btn {
-  background-color: #4eaeff;
+  background-color: #688B58;
   color: #ffffff;
-  border-color: #2699FB;
+  border-color: #516C45;
   padding: 1rem 2rem;
 }
 
@@ -69,7 +70,7 @@ a:hover {
 
 #subscribe-button {
   color: #ffffff;
-  border-color: #ffffff;
+  border-color: #516C45;
   padding: 0.5rem 0.25rem;
 }
 
@@ -113,8 +114,8 @@ img#logo {
 .footer {
   font-size: 0.95rem;
   padding: 3rem 2rem;
-  background-color: #4eaeff;
-  color: #ffffff;
+  background-color: #688B58;
+  color: #ffffff !important;
   margin-top: 8vh;
   margin-bottom: 0vh;
 }
@@ -122,9 +123,11 @@ img#logo {
   font-weight: 700;
   padding-left: 1rem;
   text-transform: uppercase;
+  color: white;
 }
 .footer-text {
   padding-left: 1rem;
+  color: white;
 }
 .margin-top-one {
   margin-top: 1rem;
@@ -133,13 +136,16 @@ img#logo {
 .subscribe-form-title {
   font-weight: 700;
   padding-left: 1rem;
+  color: white;
 }
 .subscribe-text {
   padding-left: 1rem;
+  color: white;
 }
 
 #subscribe {
   padding-left: 1rem;
+  /* color: white; */
 }
 
 .hotels-and-tours {
@@ -147,13 +153,11 @@ img#logo {
 }
 
 #tours-card-text {
-  background-color: #BCE0FD;
-  color: #2699FB;
+  background-color: #E9F0F7;
 }
 
 #hotels-card-text {
-  background-color: #BCE0FD;
-  color: #2699FB;
+  background-color: #E9F0F7;
 }
 
 .col-xs-12 {
