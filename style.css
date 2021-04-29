@@ -168,9 +168,13 @@ img#logo {
   padding:0.5rem;
 }
 
-
 #about {
+  margin-top: 3vh;
+}
+
+.about {
   text-align: justify;
+  padding: .75rem 2rem;
 }
 
 #six-prefectures {
@@ -193,3 +197,4 @@ img#logo {
 #places-to-visit {
   margin: 0vh;
 }
+
