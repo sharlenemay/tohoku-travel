@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="182.953" height="80.516" viewBox="0 0 182.953 80.516">
+  <g id="Group_32" data-name="Group 32" transform="translate(-33.047 -13.242)">
+    <g id="Tohoku_Travel_Logo" data-name="Tohoku Travel Logo" transform="translate(35 15.242)">
+      <g id="Group_3" data-name="Group 3" transform="translate(-702.631 -584.544)">
+        <text id="北" transform="translate(739.586 635.45)" fill="#fff" font-size="37" font-family="HiraginoSans-W3, Hiragino Sans"><tspan x="0" y="0">北</tspan></text>
+        <text id="T" transform="translate(702.631 634.289)" fill="#fff" font-size="26" font-family="Helvetica"><tspan x="0" y="0">T</tspan></text>
+        <text id="O" transform="translate(718.949 633.043)" fill="#fff" font-size="25" font-family="Helvetica"><tspan x="0" y="0">O</tspan></text>
+        <rect id="Rectangle_717" data-name="Rectangle 717" width="17.203" height="2.311" transform="translate(721.294 609.322)" fill="#fff"/>
+        <circle id="Ellipse_4" data-name="Ellipse 4" cx="38.258" cy="38.258" r="38.258" transform="translate(702.678 584.544)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="4"/>
+      </g>
+      <text id="TOHOKU_TRAVEL" data-name="TOHOKU TRAVEL" transform="translate(77 13.758)" fill="#fff" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="9.95" y="19">TOHOKU </tspan><tspan x="15.61" y="43">TRAVEL</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tohoku Travel - Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Assets CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- logo -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a href="#tours"><img id="logo" src="Assets/logo.svg" /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://sharlenemay.github.io/tohoku/index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://sharlenemay.github.io/tohoku/about.html"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://sharlenemay.github.io/tohoku/places.html"
+              >Places to Visit</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://sharlenemay.github.io/tohoku/book.html"
+              >Book Your Stay</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://sharlenemay.github.io/tohoku/sustainability.html"
+              >Sustainability</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://sharlenemay.github.io/tohoku/contact.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            id="search-bar"
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn my-2 my-sm-0" type="submit" id="search-btn">
+            <img src="search.svg" alt="search">
+          </button>
+        </form>
+        <!-- social icons -->
+        <a href="https://instagram.com" target="_blank"><img class="socials" src="insta.svg" alt="instagram"></a>
+        <a href="https://twitter.com" target="_blank"><img class="socials" src="twitter.svg" alt="twitter"></a>
+        <a href="https://facebook.com" target="_blank"><img class="fb" src="facebook.svg"></a>
+      </div>
+    </nav>
+
+    <!-- image carousel -->
+
+    <div class="container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide row"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="hero-caption">
+              <h1>Welcome to Tohoku Travel</h1>
+            </div>
+            <img
+              class="d-block w-100"
+              src="Assets/miyagi-tohoku-cnn.jpeg"
+              alt="https://www.cnn.com/travel/article/tohoku-natural-attractions/index.html"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://sharlenemay.github.io/tohoku/about.html"
+                ><button class="btn my-2 my-sm-0" type="submit">
+                  Learn More
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="hero-caption">
+              <h1>Welcome to Tohoku Travel</h1>
+            </div>
+            <img
+              class="d-block w-100"
+              src="Assets/tohoku-landing image.jpeg"
+              alt="https://cruiseportnavigation.com/guide/tohoku-region.html"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://sharlenemay.github.io/tohoku/about.html"
+                ><button class="btn my-2 my-sm-0" type="submit">
+                  Learn More
+                </button></a
+              >
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="hero-caption">
+              <h1>Welcome to Tohoku Travel</h1>
+            </div>
+            <img
+              class="d-block w-100"
+              src="Assets/notoya-ryokan-ginzan-onsen.jpeg"
+              alt="https://www.nippon.com/en/guide-to-japan/gu005013/soaking-in-history-at-ginzan-hot-springs.html"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <a href="https://sharlenemay.github.io/tohoku/about.html"
+                ><button class="btn my-2 my-sm-0" type="submit">
+                  Learn More
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- down arrow -->
+    <div class="container down-arrow">
+      <div class="row">
+        <div class="col align-self-center">
+          <a href="#tours"
+            ><img class="icon" id="arrow" src="arrow.svg" alt="arrow"
+          /></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- tohoku tours -->
+    <div class="container" id="tours">
+      <div class="row">
+        <img
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 img-responsive center hotels-and-tours"
+          src="Assets/akita-cycling-tour.jpeg"
+          alt="https://www.tripadvisor.com/AttractionProductReview-g1022324-d23232491-Cycling_and_Food_Tour_with_Guide_from_Akita-Semboku_Akita_Prefecture_Tohoku.html"
+        />
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6"
+          id="tours-card-text"
+        >
+          <div class="card-body margin-top-one">
+            <h2 class="intro margin-top-one">Tohoku Tours</h2>
+            <h5 class="card-text margin-top-one">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim.
+            </h5>
+            <p class="card-text margin-top-one">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim.
+            </p>
+            <button class="btn my-2 my-sm-0" type="submit">
+              Explore Tours
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- hotels and resorts -->
+    <div class="container" id="hotels">
+      <div class="row">
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6"
+          id="hotels-card-text"
+        >
+          <div class="card-body margin-top-one">
+            <h2 class="intro margin-top-one">Hotels and Resorts</h2>
+            <h5 class="card-text margin-top-one">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim.
+            </h5>
+            <p class="card-text margin-top-one">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim.
+            </p>
+            <button class="btn my-2 my-sm-0 margin-top-one" type="submit">
+              Discover Hotels
+            </button>
+          </div>
+        </div>
+        <img
+          class="col-xs-12 col-sm-12 col-md-12 col-xl-6 img-responsive center hotels-and-tours"
+          src="Assets/Shonai-Hotel-Suiden-Terrasse.jpeg"
+          alt="https://matadornetwork.com/read/tohoku-japan-travel/"
+        />
+      </div>
+    </div>
+    <!-- instagram -->
+
+    <!-- footer -->
+    <footer class="footer" id="footer-padding">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="column-title">Contact Us</div>
+            <div class="footer-text margin-top-one">
+              +81 (0)80 123 5678 <br />travel@tohoku-travel.jp
+            </div>
+          </div>
+          <div class="col">
+            <div class="column-title">Customer Service</div>
+            <div class="footer-text margin-top-one">
+              <a href="#footer">Contact Us</a>
+            </div>
+            <div class="footer-text">
+              <a href="#footer">Billing Information</a>
+            </div>
+            <div class="footer-text">
+              <a href="#footer">Reservation Inquiries</a>
+            </div>
+            <div class="footer-text"><a href="#footer">FAQ</a></div>
+          </div>
+          <div class="col">
+            <div class="column-title">Information</div>
+            <div class="footer-text margin-top-one">
+              <a href="#footer">About Tohoku Travel</a>
+            </div>
+            <div class="footer-text"><a href="#footer">Privacy Policy</a></div>
+            <div class="footer-text">
+              <a href="#footer">Terms & Conditions</a>
+            </div>
+            <div class="footer-text"><a href="#footer">Press Inquiries</a></div>
+          </div>
+          <div class="col-md-5">
+            <div class="subscribe-form-title">
+              Subscribe to Tohoku Travel via Email
+            </div>
+            <div class="subscribe-text margin-top-one">
+              Receive email promotions, exclusive giveaway alerts, and more!
+            </div>
+
+            <div class="margin-top-one">
+              <form class="form-inline my-2 my-lg-0" id="subscribe">
+                <input
+                  class="form-control mr-sm-2"
+                  type="search"
+                  placeholder="Email"
+                  aria-label="email"
+                />
+                <button
+                  class="btn my-2 my-sm-0"
+                  id="subscribe-button"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- optional javascript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
